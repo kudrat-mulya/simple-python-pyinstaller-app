@@ -40,7 +40,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts 'dist/add2vals', followSymlinks: false
+                    archiveArtifacts 'dist/add2vals'
                 }
             }
         }
